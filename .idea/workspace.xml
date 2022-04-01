@@ -179,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HammingTest (1)">
+  <component name="RunManager" selected="JUnit.HammingTest (2)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -194,6 +194,22 @@
     </configuration>
     <configuration name="HammingTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HammingJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zipcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zipcode" />
+      <option name="MAIN_CLASS_NAME" value="zipcode.HammingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HammingTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HammingItUpJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="zipcode.*" />
@@ -251,6 +267,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HammingTest (2)" />
         <item itemvalue="JUnit.HammingTest (1)" />
         <item itemvalue="JUnit.HammingTest" />
       </list>
