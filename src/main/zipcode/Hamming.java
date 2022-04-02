@@ -12,11 +12,9 @@ public class Hamming {
     }
 
     public int getHammingDistance() {
-        char[] charArr = firstString.toCharArray();
-        char[] charArr2 = secondString.toCharArray();
         int distance = 0;
-        for (int x = 0; x < charArr.length; x++) {
-            if (charArr[x] != charArr2[x])
+        for (int x = 0; x < firstString.length(); x++) {
+            if (firstString.charAt(x) != secondString.charAt(x))
                 distance++;
         }
         return distance;
